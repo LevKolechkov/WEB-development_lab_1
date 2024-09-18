@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Roboto;
+  src: url("Fonts/Roboto/Roboto-Thin.ttf");
+}
+
+.home_container div {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.navigation_bar_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.header_logo:last-child {
+  align-self: flex-end;
+}
+
+.talking_travel_container {
+  display: flex;
+  flex-direction: column;
+  size: 30%;
+}
+
+.navigation_tabs_container .navigation_tabs {
+  display: flex;
+}
+
+.navigation_tabs {
+  font-family: "Roboto";
+  font-weight: 100;
+  font-style: normal;
+}
+
+.icons_container {
+}
