@@ -1,0 +1,64 @@
+@font-face {
+  font-family: ChangaOne;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../Fonts/ChangaOne/ChangaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("Fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.featured_destination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured_destination_content {
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  width: 70%;
+}
+
+#featured_destination_image {
+  flex-grow: 2;
+  width: 35%;
+}
+
+#featured_destination_description_container {
+  flex-grow: 1;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+#featured_destination_first_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #8a53ff;
+  margin: 0;
+  margin-top: -15%;
+}
+
+#featured_destination_second_title {
+  font-size: 39px;
+  flex-shrink: 3;
+  font-family: "ChangaOne", sans-serif;
+  flex-wrap: wrap;
+  color: #434343;
+  margin: 0;
+}
+
+#featured_destination_text {
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #434343;
+  line-height: 2;
+  width: 80%;
+}
