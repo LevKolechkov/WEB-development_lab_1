@@ -1,0 +1,91 @@
+@font-face {
+  font-family: ChangaOne;
+  font-weight: normal;
+  font-style: normal;
+  src: url("Fonts/ChangaOne/ChangaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("Fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hero_section_container {
+  display: flex;
+  background-image: url("Images/Home/hero_background_image.svg");
+  background-size: 100%;
+  background-size: cover;
+  height: 580px;
+}
+
+.hero_content_container {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  margin: 5%;
+  align-items: flex-start;
+}
+
+.hero_text_container {
+  display: flex;
+  height: 30%;
+  font-weight: 400;
+  flex-wrap: wrap;
+  margin-left: 15%;
+  margin-top: -2%;
+  align-items: flex-start;
+}
+
+.hero_text_title {
+  font-size: 73px;
+  flex-shrink: 3;
+  font-family: "ChangaOne", sans-serif;
+  flex-wrap: wrap;
+  color: #434343;
+}
+
+.hero_text_description {
+  font-size: 22px;
+  font-family: "Roboto", sans-serif;
+  color: #434343;
+  margin-top: -12.5%;
+  margin-right: 15%;
+}
+
+.highlight_text {
+  color: #8a53ff;
+}
+
+.call_to_actions_container {
+  display: flex;
+  gap: 20px;
+  width: 60%;
+}
+
+.page_button {
+  background-color: #8a53ff;
+  border: 1px;
+  color: #ffffff;
+  width: 45%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+  flex-shrink: 1;
+}
+
+#watch_highlights {
+  border: 20px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  gap: 5px;
+  flex-shrink: 3;
+}
