@@ -12,13 +12,13 @@
   font-style: normal;
 }
 
-.featured_destination {
+#featured_destination {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.featured_destination_content {
+#featured_destination_content {
   margin-top: 5%;
   display: flex;
   align-items: center;

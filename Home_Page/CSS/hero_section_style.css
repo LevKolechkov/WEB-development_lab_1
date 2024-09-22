@@ -12,7 +12,7 @@
   font-style: normal;
 }
 
-.hero_section_container {
+#hero_section_container {
   display: flex;
   background-image: url("../Images/hero_background_image.svg");
   background-size: cover;
@@ -21,7 +21,7 @@
   height: 580px;
 }
 
-.hero_content_container {
+#hero_content_container {
   display: flex;
   width: 40%;
   flex-direction: column;
@@ -29,7 +29,7 @@
   align-items: flex-start;
 }
 
-.hero_text_container {
+#hero_text_container {
   display: flex;
   height: 30%;
   font-weight: 400;
@@ -39,7 +39,7 @@
   align-items: flex-start;
 }
 
-.hero_text_title {
+#hero_text_title {
   font-size: 73px;
   flex-shrink: 3;
   font-family: "ChangaOne", sans-serif;
@@ -47,7 +47,7 @@
   color: #434343;
 }
 
-.hero_text_description {
+#hero_text_description {
   font-size: 22px;
   font-family: "Roboto", sans-serif;
   color: #434343;
@@ -59,7 +59,7 @@
   color: #8a53ff;
 }
 
-.call_to_actions_container {
+#call_to_actions_container {
   display: flex;
   gap: 20px;
   width: 60%;
