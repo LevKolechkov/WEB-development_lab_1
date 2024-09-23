@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Roboto;
+  src: url("Fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 0.8%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+footer .copyright_text {
+  width: 70%;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #939eb4;
+}
+
+footer .footer_links {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #939eb4;
+  gap: 40px;
+}
