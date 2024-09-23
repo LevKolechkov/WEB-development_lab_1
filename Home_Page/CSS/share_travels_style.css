@@ -1,0 +1,130 @@
+@font-face {
+  font-family: ChangaOne;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../Fonts/ChangaOne/ChangaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("Fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.share_travel_container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-image: url("../Images/Share\ your\ travels\ section\ background\ image.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30%;
+  padding-top: 5%;
+  padding-bottom: 6%;
+}
+
+.share_travel_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 0;
+  margin-bottom: 5%;
+}
+
+.share_travel_title_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+}
+
+.share_travel_title_container .first_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #8a53ff;
+  justify-content: center;
+  align-self: center;
+  margin: 5;
+}
+
+.share_travel_title_container .second_title {
+  font-family: "ChangaOne", sans-serif;
+  font-size: 39px;
+  font-weight: 400;
+  color: #434343;
+  justify-content: center;
+  align-self: center;
+  margin-top: 0;
+}
+
+.share_travel_form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 12px;
+  padding: 5%;
+  height: 75%;
+}
+
+.share_travel_form .text_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.share_travel_form .first_title {
+  font-family: "ChangaOne", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #434343;
+  margin-top: 0;
+  margin-bottom: 1;
+}
+
+.share_travel_form .second_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #576074;
+  margin-top: 0;
+}
+
+.form_fields_container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 70%;
+}
+
+.form_field {
+  border: 1px solid #0000003b;
+  display: flex;
+  height: 10%;
+  padding: 10px;
+  padding-top: 15px;
+  border-radius: 4px;
+}
+
+.describe_form_field {
+  border: 1px solid #0000003b;
+  display: flex;
+  height: 30%;
+  align-items: flex-start;
+  padding: 10px;
+  padding-top: 15px;
+  border-radius: 4px;
+}
+
+.no_border_input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: #00000099;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 100%;
+}
