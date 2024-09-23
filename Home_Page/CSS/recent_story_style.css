@@ -1,0 +1,124 @@
+@font-face {
+  font-family: ChangaOne;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../Fonts/ChangaOne/ChangaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("Fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#recent_story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3%;
+}
+
+#recent_story_title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#recent_story_title_container #first_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #8a53ff;
+  margin-bottom: 0;
+}
+
+#recent_story_title_container #second_title {
+  font-family: "ChangaOne", sans-serif;
+  font-size: 39px;
+  font-weight: 400;
+  color: #434343;
+  margin-top: 5%;
+}
+
+#recent_story_content {
+  display: flex;
+  gap: 30px;
+}
+
+#recent_story_content #zermatt_container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9f9;
+  width: 30%;
+  margin-left: 19%;
+}
+
+#zermatt_description {
+  display: flex;
+  padding-left: 4%;
+  padding-right: 6%;
+}
+
+#zermatt_description_text {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+#zermatt_description_text h1 {
+  font-family: "ChangaOne", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #434343;
+}
+
+#zermatt_description_text p {
+  margin-top: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #576074;
+}
+
+#recent_story_content #recent_stories_list {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 5%;
+  margin-right: 17%;
+}
+
+#recent_stories_list .recent_story {
+  display: flex;
+  gap: 20px;
+  background-color: #f9f9f9;
+  padding-left: 1.5%;
+}
+
+.recent_story .description_text {
+  display: flex;
+  flex-direction: column;
+}
+
+.recent_story .description_text h1 {
+  font-family: "ChangaOne", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: #434343;
+}
+
+.recent_story .description_text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  width: 88%;
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+p .view_full_blog {
+  color: #8a53ff;
+}
