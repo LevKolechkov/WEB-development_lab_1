@@ -1,17 +1,3 @@
-@font-face {
-  font-family: ChangaOne;
-  font-weight: normal;
-  font-style: normal;
-  src: url("../Fonts/ChangaOne/ChangaOne-Regular.ttf");
-}
-
-@font-face {
-  font-family: Roboto;
-  src: url("Fonts/Roboto/Roboto-Regular.ttf");
-  font-weight: normal;
-  font-style: normal;
-}
-
 #hero_section_container {
   display: flex;
   background-image: url("../Images/hero_background_image.svg");
@@ -55,38 +41,10 @@
   margin-right: 15%;
 }
 
-.highlight_text {
-  color: #8a53ff;
-}
-
 #call_to_actions_container {
   display: flex;
   gap: 20px;
   width: 60%;
-}
-
-.page_button {
-  background-color: #8a53ff;
-  border: 1px;
-  color: #ffffff;
-  width: 45%;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  border-radius: 4px;
-  justify-content: center;
-}
-
-.play_button {
-  border: 20px;
-  display: flex;
-  font-family: "Roboto", sans-serif;
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  border-radius: 4px;
-  gap: 10px;
 }
 
 #watch_now {
