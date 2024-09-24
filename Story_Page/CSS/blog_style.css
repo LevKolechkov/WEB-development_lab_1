@@ -3,6 +3,61 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 2%;
-  margin-bottom: 2%;
+  align-self: start;
+  padding: 6%;
+}
+
+#swiss_adventure_text {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#swiss_adventure_text h1 {
+  font-family: "ChangaOne", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  color: #434343;
+  margin-bottom: 15px;
+}
+
+#swiss_adventure_text p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #434343;
+  margin-top: 0;
+  line-height: 26px;
+}
+
+#blog_container > p {
+  width: 60%;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  margin-top: 5%;
+}
+
+#disclaimer_container {
+  width: 60%;
+  background-color: #fafafa;
+  border-radius: 4px;
+  padding-left: 2%;
+  padding-right: 2%;
+  box-sizing: border-box;
+  margin-top: 1.5%;
+}
+
+#disclaimer_container > p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  size: 16px;
+  line-height: 26px;
+}
+
+#disclaimer_container > p > span {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  size: 16px;
+  line-height: 26px;
 }
