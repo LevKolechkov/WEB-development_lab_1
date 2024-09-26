@@ -151,54 +151,41 @@
           <p class="first_title">LET'S BUILD A COMMUNITY</p>
           <p class="second_title">Join our next destination</p>
         </div>
-        <div class="share_travel_form">
+        <div class="share_travel_form_container">
           <div class="text_container">
-            <p class="first_title">Share your travels</p>
-            <p class="second_title" style="line-height: 2">
-              Suggest a new travel destination that you want to see and we will
-              feature it in our blog.
-            </p>
+            <h1>Share your travels</p>
+            <h2>Suggest a new travel destination that you want to see and we will feature it in our blog.</h2>
           </div>
-          <div class="form_fields_container">
-            <div class="form_field">
-              <input
-                type="text"
-                class="no_border_input"
-                value="Destination name"
-              />
-            </div>
-            <div class="form_field">
-              <input
-                type="text"
-                class="no_border_input"
-                value="Country of Destination"
-                readonly
-              />
-              <img src="../Common/Common_Icons/Arrow.svg" alt="Arrow" />
-            </div>
-            <div class="form_field">
-              <input type="text" class="no_border_input" value="Your name" />
-            </div>
-            <div class="form_field">
-              <input
-                type="text"
-                class="no_border_input"
-                value="Shooting category"
-                readonly
-              />
-              <img src="../Common/Common_Icons/Arrow.svg" alt="Arrow" />
-            </div>
-            <div class="describe_form_field">
-              <input
-                type="text"
-                class="no_border_input"
-                value="Describe what kind of photos you want to focus on"
-              />
-            </div>
-          </div>
-          <div class="page_button" style="margin-top: 2.5%; width: 37%">
-            <p>Submit</p>
-          </div>
+          <form class="share_travel_form">
+            <input
+              type="text"
+              placeholder="Destination name"
+              class="text_form"
+            />
+            <select class="select_form">
+              <option class="text_form">Country of Destination</option>
+              <option value="Iceland">Iceland</option>
+              <option value="Italy">Italy</option>
+              <option value="Dubai">Dubai</option>
+              <option value="Patagonia">Patagonia</option>
+            </select>
+            <input type="text" placeholder="Your name" class="text_form" />
+            <select class="select_form">
+              <option class="text_form">Shooting category</option>
+              <option class="text_form">Skiing</option>
+              <option value="Iceland">Bycicle</option>
+              <option value="Italy">Plane</option>
+              <option value="Dubai">School</option>
+              <option value="Patagonia">Boat</option>
+            </select>
+            <textarea
+              class="describe_text_form"
+              placeholder="Describe what kind of photos you want to focus on"
+            ></textarea>
+          </form>
+          <button class = "page_button">
+            Submit
+          </button>
         </div>
       </div>
     </div>
